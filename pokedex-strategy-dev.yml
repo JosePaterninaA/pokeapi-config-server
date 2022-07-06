@@ -6,7 +6,7 @@ spring:
     name: "pokedex-strategy"
 
 services:
-  pokemon-info:
+  pokemon-strategy:
     main-path: "/api/pokedex/strategy"
 
 eureka:

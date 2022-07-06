@@ -5,6 +5,10 @@ spring:
   application:
     name: "pokedex-strategy"
 
+services:
+  pokemon-info:
+    main-path: "/api/pokedex/strategy"
+
 eureka:
   client:
     enabled: true

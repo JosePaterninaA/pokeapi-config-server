@@ -11,7 +11,7 @@ spring:
           uri: lb://POKEDEX-INFO
           predicates:
             - Path=/api/pokedex/info/**
-            - Method=POST
+            - Method=POST,GET
           filters:
             - RemoveRequestHeader=Cookie
 
